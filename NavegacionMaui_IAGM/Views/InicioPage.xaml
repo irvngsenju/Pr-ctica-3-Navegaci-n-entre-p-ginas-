@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NavegacionMaui_IAGM.Views.InicioPage"
+             Title="InicioPage">
+    <VerticalStackLayout Padding="24" Spacing="20">
+        <Label Text="Mi primera navegacion"
+               FontSize="26" FontAttributes="Bold"/>
+
+        
+        <Label Text="Pulsa el boton para ir a otra pagina"
+               FontSize="18"/>
+
+        <Button Text="ver informacion"
+                Clicked="OnverInformacionClicked"/>
+
+
+    </VerticalStackLayout>
+</ContentPage>
